@@ -15,7 +15,7 @@ openApiInterceptor.urlPatterns: /* #需要拦截的匹配URL，多个匹配用�
 swagger:
   enable: true
   application:
-  version: v1.0
+    version: v1.0
   appId:
   publicKey:
   privateKey:
