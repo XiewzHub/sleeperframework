@@ -8,12 +8,14 @@ spring:
 
 mybatis:
   type-aliases-package: com.chenxuanplus.entity
+  #开启驼峰转换
+  configuration.mapUnderscoreToCamelCase: true
 
 openApiInterceptor.urlPatterns: /* #需要拦截的匹配URL，多个匹配用英文逗号隔开
 swagger:
   enable: true
   application:
-    version: v1.0
+  version: v1.0
   appId:
   publicKey:
   privateKey:
