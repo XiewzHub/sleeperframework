@@ -6,7 +6,7 @@
 	<groupId>com.chenxuanplus</groupId>
 	<artifactId>sleeperframework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>sleeperframework</name>
 	<description>Demo project for Spring Boot</description>
@@ -51,6 +51,13 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.mchange</groupId>
+			<artifactId>c3p0</artifactId>
+			<version>0.9.5.2</version>
+		</dependency>
+
 		<!-- Spring Boot Test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -69,7 +76,12 @@
 			<artifactId>guava</artifactId>
 			<version>23.3-jre</version>
 		</dependency>
-
+		<!--lombok-->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.20</version>
+		</dependency>
 	</dependencies>
 
 	<build>

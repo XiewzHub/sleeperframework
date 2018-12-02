@@ -1,0 +1,1 @@
+package com.chenxuanplus.entity;import lombok.Data;@Datapublic class TestEntity {    private String id;    private String team;    private String name;}
