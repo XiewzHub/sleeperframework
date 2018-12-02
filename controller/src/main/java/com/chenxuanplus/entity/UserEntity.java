@@ -5,10 +5,14 @@ import java.io.Serializable;
 import com.chenxuanplus.enums.UserSexEnum;
 import lombok.Data;
 
+import javax.validation.constraints.NotNull;
+
 @Data
 public class UserEntity implements Serializable {
 
 	private static final long serialVersionUID = 1L;
+
+	@NotNull(message = "用户ID不能为空!")
 	private Long id;
 	private String userName;
 	private String passWord;

@@ -1,0 +1,22 @@
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sleeperframework?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+
+mybatis:
+  type-aliases-package: com.chenxuanplus.entity
+
+openApiInterceptor.urlPatterns: /* #需要拦截的匹配URL，多个匹配用英文逗号隔开
+swagger:
+  enable: true
+  application:
+    version: v1.0
+  appId:
+  publicKey:
+  privateKey:
+  platformPublicKey:
+  app:
+
