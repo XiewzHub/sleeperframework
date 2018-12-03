@@ -10,9 +10,9 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @MapperScan("com.chenxuanplus.mapper")
 public class Application  extends SpringBootServletInitializer {
 
-	//public static mainvoid main(String[] args) {
-		//SpringApplication.run(Application.class, args);
-	//}
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		// 注意这里要指向原先用main方法执行的Application启动类
